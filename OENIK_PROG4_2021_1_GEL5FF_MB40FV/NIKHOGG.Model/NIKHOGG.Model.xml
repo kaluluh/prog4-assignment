@@ -1,0 +1,287 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NIKHOGG.Model</name>
+    </assembly>
+    <members>
+        <member name="T:NIKHOGG.Model.IModel">
+            <summary>
+            Model interface.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Model.IModel.Status">
+            <summary>
+            Gets or sets Status.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Model.IModel.PlayerOne">
+            <summary>
+            Gets or sets player one.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Model.IModel.PlayerTwo">
+            <summary>
+            Gets or sets player two.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Model.IModel.CurrentLevel">
+            <summary>
+            Gets or sets current level.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Model.IModel.LevelWidth">
+            <summary>
+            Gets or sets level width.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Model.IModel.LevelHeight">
+            <summary>
+            Gets or sets level height.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Model.IModel.WindowWidth">
+            <summary>
+            Gets or sets window width.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Model.IModel.WindowHeight">
+            <summary>
+            Gets or sets window height.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Model.IModel.ActualPlayer">
+            <summary>
+            Gets or sets actual player.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Model.IModel.SwappedPlayers">
+            <summary>
+            Gets a value indicating whether gets or sets swapped players.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Model.IModel.CameraPos">
+            <summary>
+            Gets or sets cameraposition.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Model.IModel.TimeInTenthsOfSec">
+            <summary>
+            Gets or sets time.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Model.IModel.LevelIndicator">
+            <summary>
+            Gets or sets level indicator.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Model.IModel.Map">
+            <summary>
+            Gets or sets map.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Model.IModel.DeadlyMapParts">
+            <summary>
+            Gets or sets deadly map parts.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Model.IModel.ThrowedWeapons">
+            <summary>
+            Gets throwed weapons.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Model.IModel.DroppedWeapons">
+            <summary>
+            Gets the dropped weapons.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Model.IModel.WeaponsOnFloor">
+            <summary>
+            Gets the weaopens on florr.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Model.IModel.Arrows">
+            <summary>
+            Gets the arrows.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Model.IModel.StaticArrows">
+            <summary>
+            Gets the static arrows.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Model.IModel.Toplist">
+            <summary>
+            Gets or sets toplist.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Model.IModel.Finish">
+            <summary>
+            Gets or sets Finish area.
+            </summary>
+        </member>
+        <member name="T:NIKHOGG.Model.ModelStatus">
+            <summary>
+            Model status enumerator.
+            </summary>
+        </member>
+        <member name="F:NIKHOGG.Model.ModelStatus.MainMenu">
+            <summary>
+            Main menu.
+            </summary>
+        </member>
+        <member name="F:NIKHOGG.Model.ModelStatus.StartMenu">
+            <summary>
+            Start menu.
+            </summary>
+        </member>
+        <member name="F:NIKHOGG.Model.ModelStatus.SavesMenu">
+            <summary>
+            Save menu.
+            </summary>
+        </member>
+        <member name="F:NIKHOGG.Model.ModelStatus.TopList">
+            <summary>
+            Top list.
+            </summary>
+        </member>
+        <member name="F:NIKHOGG.Model.ModelStatus.GamePlay">
+            <summary>
+            Game play.
+            </summary>
+        </member>
+        <member name="F:NIKHOGG.Model.ModelStatus.Paused">
+            <summary>
+            Paused.
+            </summary>
+        </member>
+        <member name="F:NIKHOGG.Model.ModelStatus.Loading">
+            <summary>
+            Loading.
+            </summary>
+        </member>
+        <member name="T:NIKHOGG.Model.NIKHOGGModel">
+            <summary>
+            Implementation of model.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Model.NIKHOGGModel.#ctor(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NIKHOGG.Model.NIKHOGGModel"/> class.
+            </summary>
+            <param name="levelWidth">Level width.</param>
+            <param name="levelHeight">Level height.</param>
+            <param name="width">Width.</param>
+            <param name="height">Height.</param>
+        </member>
+        <member name="P:NIKHOGG.Model.NIKHOGGModel.Status">
+            <summary>
+            Gets or sets the status of the model.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Model.NIKHOGGModel.PlayerOne">
+            <summary>
+            Gets or sets the player one.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Model.NIKHOGGModel.PlayerTwo">
+            <summary>
+            Gets or sets player two.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Model.NIKHOGGModel.CurrentLevel">
+            <summary>
+            Gets or sets the current level.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Model.NIKHOGGModel.LevelWidth">
+            <summary>
+            Gets or sets level width.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Model.NIKHOGGModel.LevelHeight">
+            <summary>
+            Gets or sets level height.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Model.NIKHOGGModel.WindowWidth">
+            <summary>
+            Gets or sets window width.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Model.NIKHOGGModel.WindowHeight">
+            <summary>
+            Gets or sets window height.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Model.NIKHOGGModel.ActualPlayer">
+            <summary>
+            Gets or sets actual player.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Model.NIKHOGGModel.SwappedPlayers">
+            <summary>
+            Gets a value indicating whether gets or sets swapped players.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Model.NIKHOGGModel.CameraPos">
+            <summary>
+            Gets or sets cameraposition.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Model.NIKHOGGModel.TimeInTenthsOfSec">
+            <summary>
+            Gets or sets time in second.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Model.NIKHOGGModel.LevelIndicator">
+            <summary>
+            Gets or sets level indicator.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Model.NIKHOGGModel.Map">
+            <summary>
+            Gets or sets the map.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Model.NIKHOGGModel.DeadlyMapParts">
+            <summary>
+            Gets or sets the deadly mapparts.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Model.NIKHOGGModel.ThrowedWeapons">
+            <summary>
+            Gets throwed weapons.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Model.NIKHOGGModel.DroppedWeapons">
+            <summary>
+            Gets dropped weapons.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Model.NIKHOGGModel.WeaponsOnFloor">
+            <summary>
+            Gets weapons on floor.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Model.NIKHOGGModel.Arrows">
+            <summary>
+            Gets arrow.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Model.NIKHOGGModel.StaticArrows">
+            <summary>
+            Gets static arrows.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Model.NIKHOGGModel.Toplist">
+            <summary>
+            Gets or sets toplist.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Model.NIKHOGGModel.Finish">
+            <summary>
+            Gets or sets Finish area.
+            </summary>
+        </member>
+    </members>
+</doc>

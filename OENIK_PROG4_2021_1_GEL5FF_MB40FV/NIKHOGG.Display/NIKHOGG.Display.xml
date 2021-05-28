@@ -1,0 +1,241 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NIKHOGG.Display</name>
+    </assembly>
+    <members>
+        <member name="T:NIKHOGG.Display.App">
+            <summary>
+            Interaction logic for App.xaml.
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Display.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Display.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:NIKHOGG.Display.EndgameWindow">
+            <summary>
+            Interaction logic for EndgameWindow.xaml.
+            </summary>
+            <summary>
+            EndgameWindow
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Display.EndgameWindow.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:NIKHOGG.Display.EndgameWindow"/> class.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Display.EndgameWindow.PlayerName">
+            <summary>
+            Gets or sets name of player.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Display.EndgameWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:NIKHOGG.Display.EndgameWindowWithoutTL">
+            <summary>
+            Interaction logic for EndgameWindowWithoutTL.xaml.
+            </summary>
+            <summary>
+            EndgameWindowWithoutTL
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Display.EndgameWindowWithoutTL.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:NIKHOGG.Display.EndgameWindowWithoutTL"/> class.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Display.EndgameWindowWithoutTL.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:NIKHOGG.Display.GameControl">
+            <summary>
+            The game control class implementation.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Display.GameControl.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:NIKHOGG.Display.GameControl"/> class.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Display.GameControl.LoadGame">
+            <summary>
+            Loading saved game.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Display.GameControl.OnRender(System.Windows.Media.DrawingContext)">
+            <summary>
+            OnRender method.
+            </summary>
+            <param name="drawingContext">Drawing context.</param>
+        </member>
+        <member name="T:NIKHOGG.Display.GamePlayWindow">
+            <summary>
+            Interaction logic for GamePlayWindow.xaml.
+            </summary>
+            <summary>
+            GamePlayWindow
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Display.GamePlayWindow.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:NIKHOGG.Display.GamePlayWindow"/> class.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Display.GamePlayWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:NIKHOGG.Display.MainWindow">
+            <summary>
+            Interaction logic for MainWindow.xaml.
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Display.MainWindow.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:NIKHOGG.Display.MainWindow"/> class.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Display.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:NIKHOGG.Display.PauseMenuWindow">
+            <summary>
+            Interaction logic for PauseMenuWindow.xaml.
+            </summary>
+            <summary>
+            PauseMenuWindow
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Display.PauseMenuWindow.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:NIKHOGG.Display.PauseMenuWindow"/> class.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Display.PauseMenuWindow.Continue">
+            <summary>
+            Gets or sets a value indicating whether gets or sets.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Display.PauseMenuWindow.Save">
+            <summary>
+            Gets or sets a value indicating whether gets or sets.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Display.PauseMenuWindow.Exit">
+            <summary>
+            Gets or sets a value indicating whether gets or sets.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Display.PauseMenuWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:NIKHOGG.Display.TopListsWindow">
+            <summary>
+            Interaction logic for TopListsWindow.xaml.
+            </summary>
+            <summary>
+            TopListsWindow
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Display.TopListsWindow.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:NIKHOGG.Display.TopListsWindow"/> class.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Display.TopListsWindow.#ctor(System.Collections.Generic.List{NIKHOGG.Elements.TopListItem})">
+            <summary>
+            Initializes a new instance of the <see cref="T:NIKHOGG.Display.TopListsWindow"/> class.
+            </summary>
+            <param name="topListItems">Top lists items.</param>
+        </member>
+        <member name="M:NIKHOGG.Display.TopListsWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:NIKHOGG.Display.ViewModel">
+            <summary>
+            View model implementation.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Display.ViewModel.StartGameCommand">
+            <summary>
+            Gets the start command.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Display.ViewModel.LoadGameCommand">
+            <summary>
+            Gets the load game command.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Display.ViewModel.TopListsCommand">
+            <summary>
+            Gets the top lists command.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Display.ViewModel.ExitGameCommand">
+            <summary>
+            Gets the exit game command.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Display.ViewModel.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:NIKHOGG.Display.ViewModel"/> class.
+            </summary>
+        </member>
+        <member name="T:XamlGeneratedNamespace.GeneratedInternalTypeHelper">
+            <summary>
+            GeneratedInternalTypeHelper
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance(System.Type,System.Globalization.CultureInfo)">
+            <summary>
+            CreateInstance
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.GetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            GetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.SetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            SetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate(System.Type,System.Object,System.String)">
+            <summary>
+            CreateDelegate
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.AddEventHandler(System.Reflection.EventInfo,System.Object,System.Delegate)">
+            <summary>
+            AddEventHandler
+            </summary>
+        </member>
+    </members>
+</doc>

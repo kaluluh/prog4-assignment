@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NIKHOGG.Renderer</name>
+    </assembly>
+    <members>
+        <member name="T:NIKHOGG.Renderer.IRenderer">
+            <summary>
+            Interface of the renderer.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Renderer.IRenderer.BuildDrawing(System.Windows.Media.DrawingContext)">
+            <summary>
+            Build drawing method.
+            </summary>
+            <param name="drawingContext">The drawing context.</param>
+        </member>
+        <member name="T:NIKHOGG.Renderer.NIKHOGGRenderer">
+            <summary>
+            The renderer implemantion.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Renderer.NIKHOGGRenderer.#ctor(NIKHOGG.Model.IModel)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NIKHOGG.Renderer.NIKHOGGRenderer"/> class.
+            </summary>
+            <param name="model">IModel interface.</param>
+        </member>
+        <member name="M:NIKHOGG.Renderer.NIKHOGGRenderer.BuildDrawing(System.Windows.Media.DrawingContext)">
+            <summary>
+            Build drawings.
+            </summary>
+            <param name="drawingContext">The drawing context.</param>
+        </member>
+        <member name="M:NIKHOGG.Renderer.NIKHOGGRenderer.GetBrush(System.IO.Stream)">
+            <summary>
+            Gets the brush by a stream.
+            </summary>
+            <param name="stream">The stream.</param>
+            <returns>The brush.</returns>
+        </member>
+    </members>
+</doc>

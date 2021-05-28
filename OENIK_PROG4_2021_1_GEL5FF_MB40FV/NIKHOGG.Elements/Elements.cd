@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="NIKHOGG.Elements.Config">
+    <Position X="2.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AqSQNShFB4LB2WAiBaqArwEwk21StdZgCR8gfYQHZYM=</HashCode>
+      <FileName>Config.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NIKHOGG.Elements.Resource">
+    <Position X="0.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Resource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NIKHOGG.Elements.MapPart">
+    <Position X="4.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAQAAAAE=</HashCode>
+      <FileName>Models\Map\MapPart.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NIKHOGG.Elements.Floor">
+    <Position X="6.5" Y="2.25" Width="1.5" />
+    <InheritanceLine Type="NIKHOGG.Elements.MapPart" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="6" Y="4.25" />
+        <Point X="6" Y="4.169" />
+        <Point X="5.993" Y="4.169" />
+        <Point X="5.993" Y="4.006" />
+        <Point X="7.25" Y="4.006" />
+        <Point X="7.25" Y="3.483" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Map\Floor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NIKHOGG.Elements.Ceiling">
+    <Position X="6.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Map\Ceiling.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NIKHOGG.Elements.NeptunLake">
+    <Position X="6.5" Y="6" Width="1.5" />
+    <InheritanceLine Type="NIKHOGG.Elements.MapPart" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="6.25" Y="5.75" />
+        <Point X="7.25" Y="5.75" />
+        <Point X="7.25" Y="6" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Map\NeptunLake.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NIKHOGG.Elements.Finish">
+    <Position X="6.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Map\Finish.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NIKHOGG.Elements.Player">
+    <Position X="10.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkACQgAAAEBQ8BADECYAACCoABAokjCAKACAACIAA=</HashCode>
+      <FileName>Models\Game\Player.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NIKHOGG.Elements.Sword">
+    <Position X="14" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIAEAAYgAAAEAA5kCCAAYIAAEBAAAgEBAAIAAQFQAAI=</HashCode>
+      <FileName>Models\Weapons\Sword.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NIKHOGG.Elements.Bow">
+    <Position X="15.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wIAEAAYgBAAEAA5kCCAAYAAAEBgAAgEBAAoAAQFYAAI=</HashCode>
+      <FileName>Models\Weapons\Bow.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NIKHOGG.Elements.Arrow">
+    <Position X="17.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAQAAAAEAAYAASAAQAAAAAgAAgAAIAIAAAAAAAA=</HashCode>
+      <FileName>Models\Game\Arrow.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="NIKHOGG.Elements.IPlayer">
+    <Position X="8.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkACAgAAAEAQkBADECYAACAoAAAIkjCAKACAACIAA=</HashCode>
+      <FileName>Interfaces\IPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NIKHOGG.Elements.IMapPart">
+    <Position X="4.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Interfaces\IMapPart.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NIKHOGG.Elements.IWeapon">
+    <Position X="12" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIAEAAIgAAAEAA5gCAAAQAAAEBAAAAEBAAIAAQEQAAI=</HashCode>
+      <FileName>Interfaces\IWeapon.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NIKHOGG.Elements.IArrow">
+    <Position X="17.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAEAAAAAAAAQAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IArrow.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="NIKHOGG.Elements.FileType">
+    <Position X="0.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAACAABABAAAAAAAAAAA=</HashCode>
+      <FileName>Resource.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="NIKHOGG.Elements.Direction">
+    <Position X="12" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAA=</HashCode>
+      <FileName>Models\Game\Player.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

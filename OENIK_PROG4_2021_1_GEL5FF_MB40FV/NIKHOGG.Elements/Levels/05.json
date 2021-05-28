@@ -1,0 +1,61 @@
+[
+
+	{
+		"type": "floor",
+		"y": 16,
+		"height": 4,
+		"x": -250,
+		"width": 500
+	},
+	{
+		"type": "floor",
+		"y": 16,
+		"height": 4,
+		"x": 350,
+		"width": 450
+	},
+	{
+		"type": "floor",
+		"y": 16,
+		"height": 4,
+		"x": 1200,
+		"width": 450
+	},
+	{
+		"type": "floor",
+		"y": 16,
+		"height": 4,
+		"x": 1750,
+		"width": 500
+	},
+	{
+		"type": "floor",
+		"y": 10,
+		"height": 10,
+		"x": 600,
+		"width": 800
+	},
+	{
+		"type": "ceiling",
+		"y": 0,
+		"height": 5,
+		"x": 500,
+		"width": 1000
+	},
+	{
+		"type": "neptun_lake",
+		"y": 18,
+		"height": 4,
+		"x": 200,
+		"width": 200
+	},
+	{
+		"type": "neptun_lake",
+		"y": 18,
+		"height": 4,
+		"x": 1600,
+		"width": 200
+	}
+
+
+]

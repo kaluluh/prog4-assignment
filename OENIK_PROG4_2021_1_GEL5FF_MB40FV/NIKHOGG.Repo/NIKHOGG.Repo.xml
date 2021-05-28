@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NIKHOGG.Repo</name>
+    </assembly>
+    <members>
+        <member name="T:NIKHOGG.Repo.IStorageRepo">
+            <summary>
+            Rapository interface implementation.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Repo.IStorageRepo.SaveGame(System.Int32,NIKHOGG.Elements.SavedGameInfo)">
+            <summary>
+            Save game.
+            </summary>
+            <param name="id">Id.</param>
+            <param name="savedGameInfo"> Save game info.</param>
+        </member>
+        <member name="M:NIKHOGG.Repo.IStorageRepo.GetSavedGames">
+            <summary>
+            Get saved games.
+            </summary>
+            <returns>List of int.</returns>
+        </member>
+        <member name="M:NIKHOGG.Repo.IStorageRepo.LoadGame(System.Int32)">
+            <summary>
+            Load game.
+            </summary>
+            <param name="id">Id.</param>
+            <returns>Saved game info.</returns>
+        </member>
+        <member name="M:NIKHOGG.Repo.IStorageRepo.ToTopList(System.Collections.Generic.List{NIKHOGG.Elements.TopListItem})">
+            <summary>
+            To top list.
+            </summary>
+            <param name="toplist">Time.</param>
+        </member>
+        <member name="M:NIKHOGG.Repo.IStorageRepo.GetTopList">
+            <summary>
+            Get top list.
+            </summary>
+            <returns>List of top list item.</returns>
+        </member>
+        <member name="M:NIKHOGG.Repo.IStorageRepo.LoadLevel(System.IO.Stream)">
+            <summary>
+            Load level.
+            </summary>
+            <param name="stream">Stream.</param>
+            <returns>List of map part.</returns>
+        </member>
+        <member name="T:NIKHOGG.Repo.NIKHOGGRepo">
+            <summary>
+            Implementation of the repository.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Repo.NIKHOGGRepo.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:NIKHOGG.Repo.NIKHOGGRepo"/> class.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Repo.NIKHOGGRepo.GetSavedGames">
+            <summary>
+            Get saved games.
+            </summary>
+            <returns>List of saved games number.</returns>
+        </member>
+        <member name="M:NIKHOGG.Repo.NIKHOGGRepo.GetTopList">
+            <summary>
+             Get top list.
+            </summary>
+            <returns>Top list item.</returns>
+        </member>
+        <member name="M:NIKHOGG.Repo.NIKHOGGRepo.LoadGame(System.Int32)">
+            <summary>
+            Load game method.
+            </summary>
+            <param name="id">The level number.</param>
+            <returns>Saved game info.</returns>
+        </member>
+        <member name="M:NIKHOGG.Repo.NIKHOGGRepo.LoadLevel(System.IO.Stream)">
+            <summary>
+            Load level.
+            </summary>
+            <param name="stream">Stream.</param>
+            <returns>Mappart items.</returns>
+        </member>
+        <member name="M:NIKHOGG.Repo.NIKHOGGRepo.SaveGame(System.Int32,NIKHOGG.Elements.SavedGameInfo)">
+            <summary>
+            Save game infos.
+            </summary>
+            <param name="id">The id.</param>
+            <param name="savedGameInfo">The saved game infos.</param>
+        </member>
+        <member name="M:NIKHOGG.Repo.NIKHOGGRepo.ToTopList(System.Collections.Generic.List{NIKHOGG.Elements.TopListItem})">
+            <summary>
+            Top list method.
+            </summary>
+            <param name="toplist">Toplist.</param>
+        </member>
+    </members>
+</doc>

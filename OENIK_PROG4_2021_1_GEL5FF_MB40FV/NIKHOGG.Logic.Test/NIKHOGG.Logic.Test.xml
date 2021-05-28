@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NIKHOGG.Logic.Test</name>
+    </assembly>
+    <members>
+        <member name="T:RLCSX.Logic.Tests.LogicTests">
+            <summary>LogicTests class.</summary>
+        </member>
+        <member name="M:RLCSX.Logic.Tests.LogicTests.Init">
+            <summary>Create model and logic.</summary>
+        </member>
+        <member name="M:RLCSX.Logic.Tests.LogicTests.Test1">
+            <summary>
+            Test for play jump.
+            </summary>
+        </member>
+        <member name="M:RLCSX.Logic.Tests.LogicTests.Test2">
+            <summary>
+            Test for player move.
+            </summary>
+        </member>
+        <member name="M:RLCSX.Logic.Tests.LogicTests.Test3">
+            <summary>
+            Test for attack.
+            </summary>
+        </member>
+        <member name="M:RLCSX.Logic.Tests.LogicTests.Test4">
+            <summary>
+            Test for focus change.
+            </summary>
+        </member>
+        <member name="M:RLCSX.Logic.Tests.LogicTests.Test5">
+            <summary>
+            Test for throwing weapon.
+            </summary>
+        </member>
+    </members>
+</doc>

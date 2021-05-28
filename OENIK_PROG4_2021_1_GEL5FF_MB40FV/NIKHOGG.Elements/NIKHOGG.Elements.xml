@@ -1,0 +1,1865 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NIKHOGG.Elements</name>
+    </assembly>
+    <members>
+        <member name="T:NIKHOGG.Elements.Config">
+            <summary>
+            The configuration class.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.TickTime">
+            <summary>
+            Gets or sets tick time.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.FPS">
+            <summary>
+            Gets or sets fPS.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.TickTimetoSec">
+            <summary>
+            Gets or sets tick time in seconds.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.LevelWidth">
+            <summary>
+            Gets or sets level width.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.LevelHeight">
+            <summary>
+            Gets or sets level height.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.Scale">
+            <summary>
+            Gets or sets scale.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.Rows">
+            <summary>
+            Gets or sets rows.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.RowSize">
+            <summary>
+            Gets or sets row size.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.MinCameraPos">
+            <summary>
+            Gets or sets minimum camera position.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.StartingCameraPos">
+            <summary>
+            Gets or sets starting camera position.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.MaxCameraPos">
+            <summary>
+            Gets or sets maximum camera position.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.SpawDistanceAtStart">
+            <summary>
+            Gets or sets spaw distance at start.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.PlayerAX">
+            <summary>
+            Gets or sets player a x position.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.PlayerAY">
+            <summary>
+            Gets or sets player a y position.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.MaxPlayerDX">
+            <summary>
+            Gets or sets maximum velocity of players.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.JumpSpeed">
+            <summary>
+            Gets or sets jump speed.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.MinDistanceToSide">
+            <summary>
+            Gets or sets minimum distance to side.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.MinRespawnDistance">
+            <summary>
+            Gets or sets minimum respawn distance.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.RespawnTimeInSec">
+            <summary>
+            Gets or sets respawn time in second.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.RespawnDX">
+            <summary>
+            Gets or sets the Respawn velocity.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.PlayerWidth">
+            <summary>
+            Gets or sets player width.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.PlayerHeight">
+            <summary>
+            Gets or sets player height.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.MaxWeaponDx">
+            <summary>
+            Gets or sets maximum weapon velocity.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.PlayerWeaponDistance">
+            <summary>
+            Gets or sets player weapon distance.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.SwordWidth">
+            <summary>
+            Gets or sets sword width.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.ArrowWidth">
+            <summary>
+            Gets or sets arrow width.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.ArrowHeight">
+            <summary>
+            Gets or sets arrow height.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.AttackSpeed">
+            <summary>
+            Gets or sets attack speed.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.TransformAngle">
+            <summary>
+            Gets or sets transfrom angle.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.LevelIndicatorY">
+            <summary>
+            Gets or sets level indicator Y position.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.LevelIndicatorWidth">
+            <summary>
+            Gets or sets level indicator width.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.LevelIndicatorHeight">
+            <summary>
+            Gets or sets level indicator height.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.LevelIndicatorDistance">
+            <summary>
+            Gets or sets level indicator distance.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.LevelIndicatorGradientPath">
+            <summary>
+            Gets or sets level indicator gradient path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.BackdoorInteriorBGPath">
+            <summary>
+            Gets or sets backdoor interior background path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.FirstFloorBGPath">
+            <summary>
+            Gets or sets or set first floor background path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.FirstFloorFGPath">
+            <summary>
+            Gets or sets first floor background path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.AudmaxBGPath">
+            <summary>
+            Gets or sets audmax background path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.AudmaxFGPath">
+            <summary>
+            Gets or sets audmax foreground path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.SmokingPath">
+            <summary>
+            Gets or sets smoking path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.SmokingFgPath">
+            <summary>
+            Gets or sets smoking foreground path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.AulaPath">
+            <summary>
+            Gets or sets aula path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.EntrancePath">
+            <summary>
+            Gets or sets entrance path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.NeptunLakePath">
+            <summary>
+            Gets or sets neptun lake path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.FirstEntrancePath">
+            <summary>
+            Gets or sets first entrance path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.SmallSmokingPath">
+            <summary>
+            Gets or sets small smoking path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.MainMenuBckgrnd">
+            <summary>
+            Gets or sets main menu background.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.PauseMenuBGBrush">
+            <summary>
+            Gets or sets pause menu background.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.NeptunSwordLeftPath">
+            <summary>
+            Gets or sets neptun sword left path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.NeptunSwordRightPath">
+            <summary>
+            Gets or sets neptun sword right path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.NeptunSwordThrowLeftPath">
+            <summary>
+            Gets or sets neptun sword throw left path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.NeptunSwordThrowRightPath">
+            <summary>
+            Gets or sets neptun sword throw right path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.FinishPath">
+            <summary>
+            Gets or sets neptun sword throw right path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.BowLeftPath">
+            <summary>
+            Gets or sets bow left path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.BowRightPath">
+            <summary>
+            Gets or sets bow right path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.BowStretchedLeftPath">
+            <summary>
+            Gets or sets bow strecthed left path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.BowStretchedRightPath">
+            <summary>
+            Gets or sets bow streched right path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.BowThrowLeftPath">
+            <summary>
+            Gets or sets bow throw left path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.BowThrowRightPath">
+            <summary>
+            Gets or sets bow throw right path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.BowFloorPath">
+            <summary>
+            Gets or sets bow floor path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.ArrowLeftPath">
+            <summary>
+            Gets or sets arrow left path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.ArrowRightPath">
+            <summary>
+            Gets or sets arrow right path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.ArrowLowLeftPath">
+            <summary>
+            Gets or sets arrow low left path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.ArrowLowRightPath">
+            <summary>
+            Gets or sets arrow lofw rifht path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P1HeadLeftPath">
+            <summary>
+            Gets or sets player one head left path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P1HeadRightPath">
+            <summary>
+            Gets or sets player one head right path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P1Bow1LeftPath">
+            <summary>
+            Gets or sets player one bow 1 left path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P1Bow1RightPath">
+            <summary>
+            Gets or sets player one bow 1 right path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P1Bow1StretchedLeftPath">
+            <summary>
+            Gets or sets player bow 1 streched left path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P1Bow1StretchedRightPath">
+            <summary>
+            Gets or sets player one bow 1 strecthed right path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P1Bow2LeftPath">
+            <summary>
+            Gets or sets player one bow 2 left path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P1Bow2RightPath">
+            <summary>
+            Gets or sets player one bow 2 right path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P1LegStandLeftPath">
+            <summary>
+            Gets or sets p1 leg stand lefth path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P1LegStandRightPath">
+            <summary>
+            Gets or sets p1 leg stand right path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P1Leg1LeftPath">
+            <summary>
+            Gets or sets p1 leg 1 left path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P1Leg1RightPath">
+            <summary>
+            Gets or sets p1 leg 1 right path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P1Leg2LeftPath">
+            <summary>
+            Gets or sets p1 leg 2 left path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P1Leg2RightPath">
+            <summary>
+            Gets or sets p1 leg 2 right path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P1SquatLeftPath">
+            <summary>
+            Gets or sets p1 squat lefth path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P1SquatRightPath">
+            <summary>
+            Gets or sets p1 squat right path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P1Sword1LeftPath">
+            <summary>
+            Gets or sets p1 sword 1 left path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P1Sword1RightPath">
+            <summary>
+            Gets or sets p1 sword 1 right path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P1Sword2LeftPath">
+            <summary>
+            Gets or sets p1 sword 1 lefth path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P1Sword2RightPath">
+            <summary>
+            Gets or sets p1 sword 2 right path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P1Sword3LeftPath">
+            <summary>
+            Gets or sets p1 sowrd 3 left path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P1Sword3RightPath">
+            <summary>
+            Gets or sets p1 sword 3 right path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P1SwordAttack1LeftPath">
+            <summary>
+            Gets or sets p1 sowrd attack 1 lefth path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P1SwordAttack1RightPath">
+            <summary>
+            Gets or sets p1 sowrd attack 1 right path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P1SwordAttack2LeftPath">
+            <summary>
+            Gets or sets p1 sowrd attack 2 lefth path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P1SwordAttack2RightPath">
+            <summary>
+            Gets or sets p1 sowrd attack 2 right path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P1SwordAttack3LeftPath">
+            <summary>
+            Gets or sets p1 sowrd attack 1 lefth path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P1SwordAttack3RightPath">
+            <summary>
+            Gets or sets p1 sowrd attack 1 right path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P1SwordSquatLeftPath">
+            <summary>
+            Gets or sets p1 sord squat left path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P1SwordSquatRightPath">
+            <summary>
+            Gets or sets p1 sword squat right path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P1ThrowLeftPath">
+            <summary>
+            Gets or sets p1 throw left path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P1ThrowRightPath">
+            <summary>
+            Gets or sets p1 throw right path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P2HeadLeftPath">
+            <summary>
+            Gets or sets player two head left path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P2HeadRightPath">
+            <summary>
+            Gets or sets player two head right path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P2Bow1LeftPath">
+            <summary>
+            Gets or sets player two bow 1 left path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P2Bow1RightPath">
+            <summary>
+            Gets or sets player two bow 1 right path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P2Bow1StretchedLeftPath">
+            <summary>
+            Gets or sets player bow 1 streched left path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P2Bow1StretchedRightPath">
+            <summary>
+            Gets or sets player two bow 1 strecthed right path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P2Bow2LeftPath">
+            <summary>
+            Gets or sets player two bow 2 left path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P2Bow2RightPath">
+            <summary>
+            Gets or sets player two bow 2 right path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P2LegStandLeftPath">
+            <summary>
+            Gets or sets p2 leg stand lefth path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P2LegStandRightPath">
+            <summary>
+            Gets or sets p2 leg stand right path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P2Leg1LeftPath">
+            <summary>
+            Gets or sets p2 leg 1 left path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P2Leg1RightPath">
+            <summary>
+            Gets or sets p2 leg 1 right path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P2Leg2LeftPath">
+            <summary>
+            Gets or sets p2 leg 2 left path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P2Leg2RightPath">
+            <summary>
+            Gets or sets p2 leg 2 right path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P2SquatLeftPath">
+            <summary>
+            Gets or sets p2 squat lefth path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P2SquatRightPath">
+            <summary>
+            Gets or sets p2 squat right path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P2Sword1LeftPath">
+            <summary>
+            Gets or sets p2 sword 1 left path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P2Sword1RightPath">
+            <summary>
+            Gets or sets p2 sword 1 right path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P2Sword2LeftPath">
+            <summary>
+            Gets or sets p2 sword 1 lefth path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P2Sword2RightPath">
+            <summary>
+            Gets or sets p2 sword 2 right path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P2Sword3LeftPath">
+            <summary>
+            Gets or sets p2 sowrd 3 left path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P2Sword3RightPath">
+            <summary>
+            Gets or sets p2 sword 3 right path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P2SwordAttack1LeftPath">
+            <summary>
+            Gets or sets p2 sowrd attack 1 lefth path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P2SwordAttack1RightPath">
+            <summary>
+            Gets or sets p2 sowrd attack 1 right path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P2SwordAttack2LeftPath">
+            <summary>
+            Gets or sets p2 sowrd attack 2 lefth path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P2SwordAttack2RightPath">
+            <summary>
+            Gets or sets p2 sowrd attack 2 right path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P2SwordAttack3LeftPath">
+            <summary>
+            Gets or sets p2 sowrd attack 1 lefth path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P2SwordAttack3RightPath">
+            <summary>
+            Gets or sets p2 sowrd attack 1 right path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P2SwordSquatLeftPath">
+            <summary>
+            Gets or sets p2 sord squat left path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P2SwordSquatRightPath">
+            <summary>
+            Gets or sets p2 sword squat right path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P2ThrowLeftPath">
+            <summary>
+            Gets or sets p2 throw left path.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Config.P2ThrowRightPath">
+            <summary>
+            Gets or sets p2 throw right path.
+            </summary>
+        </member>
+        <member name="T:NIKHOGG.Elements.IArrow">
+            <summary>
+            Arrow interface.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.IArrow.Texture">
+            <summary>
+            Gets the texture.
+            </summary>đ
+        </member>
+        <member name="P:NIKHOGG.Elements.IArrow.Hitbox">
+            <summary>
+            Gets the hitbox.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.IArrow.Dx">
+            <summary>
+            Gets or sets the velocity.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.IArrow.ChangeX(System.Double)">
+            <summary>
+            Change x coordination.
+            </summary>
+            <param name="diff">Double.</param>
+        </member>
+        <member name="M:NIKHOGG.Elements.IArrow.ChangeX">
+            <summary>
+            Change X coordination.
+            </summary>
+        </member>
+        <member name="T:NIKHOGG.Elements.IMapPart">
+            <summary>
+            Interface mappart.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.IMapPart.Area">
+            <summary>
+            Gets the area.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.IMapPart.ChangeX(System.Double)">
+            <summary>
+            Change the x position.
+            </summary>
+            <param name="diff">Diff.</param>
+        </member>
+        <member name="T:NIKHOGG.Elements.IPlayer">
+            <summary>
+            Player interface.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.IPlayer.Texture">
+            <summary>
+            Gets the texture.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.IPlayer.Hitbox">
+            <summary>
+            Gets the hitbox.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.IPlayer.HeadHitbox">
+            <summary>
+            Gets the head hitbox.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.IPlayer.Weapon">
+            <summary>
+            Gets or sets the weapong.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.IPlayer.Direction">
+            <summary>
+            Gets or sets the direction.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.IPlayer.PlayerNumber">
+            <summary>
+            Gets the playernumber.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.IPlayer.Dx">
+            <summary>
+            Gets or sets the d x position.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.IPlayer.Dy">
+            <summary>
+            Gets or sets the y position.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.IPlayer.Ax">
+            <summary>
+            Gets or sets Ax.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.IPlayer.Ay">
+            <summary>
+            Gets or sets Ay.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.IPlayer.Moving">
+            <summary>
+            Gets or sets a value indicating whether gets or sets moving, true or false.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.IPlayer.Left">
+            <summary>
+            Gets the left.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.IPlayer.Right">
+            <summary>
+            Gets the right position.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.IPlayer.Dead">
+            <summary>
+            Gets or sets a value indicating whether gets or sets dead.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.IPlayer.IsAttack">
+            <summary>
+            Gets or sets a value indicating whether gets or sets.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.IPlayer.Locked">
+            <summary>
+            Gets a value indicating whether gets or.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.IPlayer.CanJump">
+            <summary>
+            Gets a value indicating whether gets.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.IPlayer.LastWeaponWasSword">
+            <summary>
+            Gets or sets a value indicating whether gets or sets.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.IPlayer.IsSquat">
+            <summary>
+            Gets or sets a value indicating whether gets or sets.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.IPlayer.GenerateWeapon">
+            <summary>
+            Generate weapon.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.IPlayer.ChangeX(System.Double)">
+            <summary>
+            Change x.
+            </summary>
+            <param name="diff">Diff.</param>
+        </member>
+        <member name="M:NIKHOGG.Elements.IPlayer.ChangeY(System.Double)">
+            <summary>
+            Change y.
+            </summary>
+            <param name="diff">Diff.</param>
+        </member>
+        <member name="M:NIKHOGG.Elements.IPlayer.ResetPlayer(System.Double)">
+            <summary>
+            Reset player.
+            </summary>
+            <param name="newPos">New positon.</param>
+        </member>
+        <member name="M:NIKHOGG.Elements.IPlayer.RecalculateD">
+            <summary>
+            Recalculate D .
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.IPlayer.RecalculateDX">
+            <summary>
+            Recalculate dx.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.IPlayer.RecalculateDY">
+            <summary>
+            Recalculate dy.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.IPlayer.Death">
+            <summary>
+            Death.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.IPlayer.Spawn(System.Double)">
+            <summary>
+            Spawn.
+            </summary>
+            <param name="y">Y.</param>
+        </member>
+        <member name="M:NIKHOGG.Elements.IPlayer.Attack">
+            <summary>
+            Attack.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.IPlayer.Knockback">
+            <summary>
+            Knock back.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.IPlayer.Squat">
+            <summary>
+            Squat.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.IPlayer.StandUp">
+            <summary>
+            Stand up.
+            </summary>
+        </member>
+        <member name="T:NIKHOGG.Elements.IWeapon">
+            <summary>
+            The Weapon interface.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.IWeapon.Position">
+            <summary>
+            Gets the position.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.IWeapon.Hitbox">
+            <summary>
+            Gets the hitbox.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.IWeapon.Texture">
+            <summary>
+            Gets the texture.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.IWeapon.CanKill">
+            <summary>
+            Gets a value indicating whether gets the position.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.IWeapon.Player">
+            <summary>
+            Gets the player..
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.IWeapon.B">
+            <summary>
+            Gets the brush.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.IWeapon.Locked">
+            <summary>
+            Gets or sets a value indicating whether gets or sets the locked.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.IWeapon.Throwed">
+            <summary>
+            Gets or sets a value indicating whether gets or sets throwed.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.IWeapon.OnFloor">
+            <summary>
+            Gets a value indicating whether gets or sets onflorr.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.IWeapon.Dx">
+            <summary>
+            Gets or sets the dx.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.IWeapon.Dy">
+            <summary>
+            Gets or sets dy.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.IWeapon.ChangeX(System.Double)">
+            <summary>
+            Change x.
+            </summary>
+            <param name="diff">Diff.</param>
+        </member>
+        <member name="M:NIKHOGG.Elements.IWeapon.SetX(System.Double)">
+            <summary>
+            Set X.
+            </summary>
+            <param name="x">X.</param>
+        </member>
+        <member name="M:NIKHOGG.Elements.IWeapon.SetY(System.Double)">
+            <summary>
+            Set Y.
+            </summary>
+            <param name="y">Y.</param>
+        </member>
+        <member name="M:NIKHOGG.Elements.IWeapon.RecalculateX(System.Double,NIKHOGG.Elements.Direction)">
+            <summary>
+            Recalculate X.
+            </summary>
+            <param name="x">X.</param>
+            <param name="direction">Direction.</param>
+        </member>
+        <member name="M:NIKHOGG.Elements.IWeapon.RecalculateX">
+            <summary>
+            Recalculate x.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.IWeapon.RecalculateY">
+            <summary>
+            Recalculate y.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.IWeapon.RecalculateY(System.Double)">
+            <summary>
+            Recalculate y.
+            </summary>
+            <param name="y">Y.</param>
+        </member>
+        <member name="M:NIKHOGG.Elements.IWeapon.Down(System.Boolean)">
+            <summary>
+            Down.
+            </summary>
+            <param name="locked">Boolean.</param>
+        </member>
+        <member name="M:NIKHOGG.Elements.IWeapon.Up">
+            <summary>
+            Up.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.IWeapon.SetPos(System.Int32)">
+            <summary>
+            Set position.
+            </summary>
+            <param name="pos">Position.</param>
+        </member>
+        <member name="M:NIKHOGG.Elements.IWeapon.Unlock">
+            <summary>
+            Unlock.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.IWeapon.DropResize">
+            <summary>
+            Drop resize.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.IWeapon.FloorResize">
+            <summary>
+            Floor resize.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.IWeapon.Rotate">
+            <summary>
+            Rotate.
+            </summary>
+            <returns>Rotate transfrom.</returns>
+        </member>
+        <member name="T:NIKHOGG.Elements.Arrow">
+            <summary>
+            Arrow class.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.Arrow.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:NIKHOGG.Elements.Arrow"/> class.
+            The constructor of arrow.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.Arrow.#ctor(NIKHOGG.Elements.Arrow,NIKHOGG.Elements.Direction)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NIKHOGG.Elements.Arrow"/> class.
+            </summary>
+            <param name="other">Other.</param>
+            <param name="direction">Direction.</param>
+        </member>
+        <member name="P:NIKHOGG.Elements.Arrow.Dx">
+            <summary>
+            Gets or sets dx.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Arrow.Texture">
+            <summary>
+            Gets the texture.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Arrow.Hitbox">
+            <summary>
+            Gets the hitbox.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Arrow.Direction">
+            <summary>
+            Gets or sets the direction.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.Arrow.ChangeX(System.Double)">
+            <summary>
+            Change x.
+            </summary>
+            <param name="diff">Digg.</param>
+        </member>
+        <member name="M:NIKHOGG.Elements.Arrow.ChangeX">
+            <summary>
+            Change x.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.Arrow.SetX(System.Double)">
+            <summary>
+            Set x position.
+            </summary>
+            <param name="x">X.</param>
+        </member>
+        <member name="M:NIKHOGG.Elements.Arrow.SetY(System.Double)">
+            <summary>
+            Set y position.
+            </summary>
+            <param name="y">Y.</param>
+        </member>
+        <member name="M:NIKHOGG.Elements.Arrow.Aim">
+            <summary>
+            Aim.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.Arrow.Low(System.Int32)">
+            <summary>
+            Low.
+            </summary>
+            <param name="playerNumber">Player number.</param>
+        </member>
+        <member name="M:NIKHOGG.Elements.Arrow.Stop(System.Double)">
+            <summary>
+            Stop.
+            </summary>
+            <param name="x">X.</param>
+        </member>
+        <member name="T:NIKHOGG.Elements.Direction">
+            <summary>
+            Direction.
+            </summary>
+        </member>
+        <member name="F:NIKHOGG.Elements.Direction.Left">
+            <summary>
+            Left.
+            </summary>
+        </member>
+        <member name="F:NIKHOGG.Elements.Direction.Right">
+            <summary>
+            Right.
+            </summary>
+        </member>
+        <member name="T:NIKHOGG.Elements.Player">
+            <summary>
+            Player.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.Player.#ctor(System.Int32,System.Double,System.Double,System.Double,System.Double,System.Windows.Media.Brush)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NIKHOGG.Elements.Player"/> class.
+            </summary>
+            <param name="playerNumber">Plyyer number.</param>
+            <param name="x">X.</param>
+            <param name="y">Y.</param>
+            <param name="w">W.</param>
+            <param name="h">H.</param>
+            <param name="b">B.</param>
+        </member>
+        <member name="P:NIKHOGG.Elements.Player.Texture">
+            <summary>
+            Gets the texture.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Player.HeadHitbox">
+            <summary>
+            Gets the head hitbox.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Player.Hitbox">
+            <summary>
+            Gets the hitbox.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Player.Weapon">
+            <summary>
+            Gets or sets the weapon.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Player.Direction">
+            <summary>
+            Gets or sets direction.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Player.PlayerNumber">
+            <summary>
+            Gets player number.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Player.Dx">
+            <summary>
+            Gets or sets dx.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Player.Dy">
+            <summary>
+            Gets or sets dy.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Player.Ax">
+            <summary>
+            Gets or sets ax.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Player.Ay">
+            <summary>
+            Gets or sets Ay.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Player.Moving">
+            <summary>
+            Gets or sets a value indicating whether gets or sets moving.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Player.Brush">
+            <summary>
+            Gets brush.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Player.Left">
+            <summary>
+            Gets the left.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Player.Right">
+            <summary>
+            Gets the right.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Player.TestYRespawn">
+            <summary>
+            Gets test y respawn.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Player.Dead">
+            <summary>
+            Gets or sets a value indicating whether gets or sets  dead.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Player.IsAttack">
+            <summary>
+            Gets or sets a value indicating whether gets or sets is attack.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Player.CantMove">
+            <summary>
+            Gets or sets a value indicating whether gets or sets can moce.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Player.Locked">
+            <summary>
+            Gets a value indicating whether gets or sets locked.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Player.CanJump">
+            <summary>
+            Gets a value indicating whether gets or sets can jump.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Player.LastWeaponWasSword">
+            <summary>
+            Gets or sets a value indicating whether gets or sets last weapong was sword.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Player.IsSquat">
+            <summary>
+            Gets or sets a value indicating whether gets or sets is squat.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.Player.GenerateWeapon">
+            <summary>
+            Generate Weapon method.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.Player.ChangeX(System.Double)">
+            <summary>
+            Change x.
+            </summary>
+            <param name="diff">Diff.</param>
+        </member>
+        <member name="M:NIKHOGG.Elements.Player.ChangeY(System.Double)">
+            <summary>
+            Change y.
+            </summary>
+            <param name="diff">Diff.</param>
+        </member>
+        <member name="M:NIKHOGG.Elements.Player.ResetPlayer(System.Double)">
+            <summary>
+            Reset player.
+            </summary>
+            <param name="newPos">New position.</param>
+        </member>
+        <member name="M:NIKHOGG.Elements.Player.SetY(System.Double)">
+            <summary>
+            SEt y.
+            </summary>
+            <param name="y">Y.</param>
+        </member>
+        <member name="M:NIKHOGG.Elements.Player.RecalculateD">
+            <summary>
+            Recalculate D.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.Player.RecalculateDX">
+            <summary>
+            Recalculate d x.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.Player.RecalculateDY">
+            <summary>
+            Recalculate d y.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.Player.Death">
+            <summary>
+            Death.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.Player.Spawn(System.Double)">
+            <summary>
+            Spawn.
+            </summary>
+            <param name="y">Y.</param>
+        </member>
+        <member name="M:NIKHOGG.Elements.Player.Attack">
+            <summary>
+            Attack.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.Player.Shoot">
+            <summary>
+            Shoot.
+            </summary>
+            <returns>Arrow.</returns>
+        </member>
+        <member name="M:NIKHOGG.Elements.Player.Knockback">
+            <summary>
+            Knock back.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.Player.Squat">
+            <summary>
+            Squat.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.Player.StandUp">
+            <summary>
+            Stand up.
+            </summary>
+        </member>
+        <member name="T:NIKHOGG.Elements.Ceiling">
+            <summary>
+            Ceiling.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.Ceiling.#ctor(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NIKHOGG.Elements.Ceiling"/> class.
+            </summary>
+            <param name="y">Y.</param>
+            <param name="h">H.</param>
+            <param name="x">X.</param>
+            <param name="w">W.</param>
+        </member>
+        <member name="T:NIKHOGG.Elements.Finish">
+            <summary>
+            Finish.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.Finish.#ctor(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NIKHOGG.Elements.Finish"/> class.
+            </summary>
+            <param name="y">y.</param>
+            <param name="h">h.</param>
+            <param name="x">x.</param>
+            <param name="w">w.</param>
+        </member>
+        <member name="T:NIKHOGG.Elements.Floor">
+            <summary>
+            Floor.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.Floor.#ctor(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NIKHOGG.Elements.Floor"/> class.
+            </summary>
+            <param name="y">y.</param>
+            <param name="h">h.</param>
+            <param name="x">x.</param>
+            <param name="w">w.</param>
+        </member>
+        <member name="T:NIKHOGG.Elements.MapPart">
+            <summary>
+            Mappart.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.MapPart.#ctor(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NIKHOGG.Elements.MapPart"/> class.
+            Mappart.
+            </summary>
+            <param name="y">Y.</param>
+            <param name="h">H.</param>
+            <param name="x">X.</param>
+            <param name="w">W.</param>
+        </member>
+        <member name="P:NIKHOGG.Elements.MapPart.Area">
+            <summary>
+            Gets the area.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.MapPart.ChangeX(System.Double)">
+            <summary>
+            Change x position.
+            </summary>
+            <param name="diff">Diff.</param>
+        </member>
+        <member name="T:NIKHOGG.Elements.NeptunLake">
+            <summary>
+            Neptun lake class implementation.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.NeptunLake.#ctor(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NIKHOGG.Elements.NeptunLake"/> class.
+            </summary>
+            <param name="y">Y.</param>
+            <param name="h">H.</param>
+            <param name="x">X.</param>
+            <param name="w">W.</param>
+        </member>
+        <member name="T:NIKHOGG.Elements.Level">
+            <summary>
+            Level class implemented.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.Level.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:NIKHOGG.Elements.Level"/> class.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Level.Map">
+            <summary>
+            Gets or sets floors and ceilings.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Level.DeadlyMapParts">
+            <summary>
+            Gets or sets neptun lakes.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Level.Finish">
+            <summary>
+            Gets or sets finish area.
+            </summary>
+        </member>
+        <member name="T:NIKHOGG.Elements.SavedGameInfo">
+            <summary>
+            Saved game info.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.SavedGameInfo.CameraPosition">
+            <summary>
+            Gets or sets camerapositon.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.SavedGameInfo.CurrentLevel">
+            <summary>
+            Gets or sets current level.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.SavedGameInfo.ActualPlayer">
+            <summary>
+            Gets or sets actual player.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.SavedGameInfo.P1Weapon">
+            <summary>
+            Gets or sets p1 weapon.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.SavedGameInfo.P2Weapon">
+            <summary>
+            Gets or sets p2 weapon.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.SavedGameInfo.P1Position">
+            <summary>
+            Gets or sets p1 position.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.SavedGameInfo.P2Position">
+            <summary>
+            Gets or sets p2 position.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.SavedGameInfo.TimeInTenthsOfSec">
+            <summary>
+            Gets or sets time in secondum.
+            </summary>
+        </member>
+        <member name="T:NIKHOGG.Elements.TopListItem">
+            <summary>
+            Top list item.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.TopListItem.#ctor(System.String,System.Double)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NIKHOGG.Elements.TopListItem"/> class.
+            Top list item.
+            </summary>
+            <param name="name">Name.</param>
+            <param name="timeInSeconds">Time in seconds.</param>
+        </member>
+        <member name="P:NIKHOGG.Elements.TopListItem.Name">
+            <summary>
+            Gets or sets the Name.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.TopListItem.TimeInSeconds">
+            <summary>
+            Gets or sets the time in seconds.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.TopListItem.ToString">
+            <summary>
+            To string.
+            </summary>
+            <returns>String.</returns>
+        </member>
+        <member name="T:NIKHOGG.Elements.Bow">
+            <summary>
+            Bow implementation.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.Bow.#ctor(System.Int32,System.Boolean,System.Double,System.Double)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NIKHOGG.Elements.Bow"/> class.
+            </summary>
+            <param name="player">Player.</param>
+            <param name="canKill">Can kill.</param>
+            <param name="x">X.</param>
+            <param name="y">Y.</param>
+        </member>
+        <member name="P:NIKHOGG.Elements.Bow.Position">
+            <summary>
+            Gets the position.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Bow.Texture">
+            <summary>
+            Gets the texture.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Bow.Hitbox">
+            <summary>
+            Gets the hitbox.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Bow.Arrow">
+            <summary>
+            Gets the arrow.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Bow.Direction">
+            <summary>
+            Gets or sets the direction.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Bow.CanKill">
+            <summary>
+            Gets a value indicating whether gets the can kill.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Bow.Player">
+            <summary>
+            Gets the player.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Bow.B">
+            <summary>
+            Gets the brush.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Bow.Locked">
+            <summary>
+            Gets or sets a value indicating whether gets or sets the locked.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Bow.Stretched">
+            <summary>
+            Gets or sets a value indicating whether gets or sets the strecthed.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Bow.CanShoot">
+            <summary>
+            Gets or sets a value indicating whether gets or sets the can shoot.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Bow.Throwed">
+            <summary>
+            Gets or sets a value indicating whether gets or sets the throwed.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Bow.OnFloor">
+            <summary>
+            Gets a value indicating whether gets or sets the on floor.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Bow.Dx">
+            <summary>
+            Gets or sets Dx.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Bow.Dy">
+            <summary>
+            Gets or sets Dy.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.Bow.ChangeX(System.Double)">
+            <summary>
+            Change x.
+            </summary>
+            <param name="diff">iff.</param>
+        </member>
+        <member name="M:NIKHOGG.Elements.Bow.SetX(System.Double)">
+            <summary>
+            Set x.
+            </summary>
+            <param name="x">X.</param>
+        </member>
+        <member name="M:NIKHOGG.Elements.Bow.SetY(System.Double)">
+            <summary>
+            Set y.
+            </summary>
+            <param name="y">Y.</param>
+        </member>
+        <member name="M:NIKHOGG.Elements.Bow.RecalculateX(System.Double,NIKHOGG.Elements.Direction)">
+            <summary>
+            Recalculate X.
+            </summary>
+            <param name="x">X.</param>
+            <param name="direction">Direction.</param>
+        </member>
+        <member name="M:NIKHOGG.Elements.Bow.RecalculateX">
+            <summary>
+            Recalculate x.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.Bow.RecalculateY">
+            <summary>
+            Recalculate y.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.Bow.RecalculateY(System.Double)">
+            <summary>
+            Recalculate y.
+            </summary>
+            <param name="y">Y.</param>
+        </member>
+        <member name="M:NIKHOGG.Elements.Bow.Down(System.Boolean)">
+            <summary>
+            Down.
+            </summary>
+            <param name="locked">Locked.</param>
+        </member>
+        <member name="M:NIKHOGG.Elements.Bow.Up">
+            <summary>
+            Up.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.Bow.SetPos(System.Int32)">
+            <summary>
+            Set position.
+            </summary>
+            <param name="pos">Position.</param>
+        </member>
+        <member name="M:NIKHOGG.Elements.Bow.Unlock">
+            <summary>
+            Unlock.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.Bow.ArrowNull">
+            <summary>
+            Arrow null.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.Bow.ToString">
+            <summary>
+            To string method.
+            </summary>
+            <returns>Bow.</returns>
+        </member>
+        <member name="M:NIKHOGG.Elements.Bow.DropResize">
+            <summary>
+            Drop resize.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.Bow.FloorResize">
+            <summary>
+            Floor resize.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.Bow.Rotate">
+            <summary>
+            Rotate.
+            </summary>
+            <returns>Rotate transform.</returns>
+        </member>
+        <member name="T:NIKHOGG.Elements.Sword">
+            <summary>
+            Sword class implementation.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.Sword.#ctor(System.Int32,System.Boolean,System.Double,System.Double)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NIKHOGG.Elements.Sword"/> class.
+            </summary>
+            <param name="player">Player number.</param>
+            <param name="canKill">Can kill?.</param>
+            <param name="x">X coordination.</param>
+            <param name="y">Y coordination.</param>
+        </member>
+        <member name="P:NIKHOGG.Elements.Sword.Position">
+            <summary>
+            Gets the position.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Sword.Texture">
+            <summary>
+            Gets the texture.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Sword.Hitbox">
+            <summary>
+            Gets the hitbox.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Sword.Direction">
+            <summary>
+            Gets or sets the sword direction.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Sword.CanKill">
+            <summary>
+            Gets a value indicating whether gets can kill.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Sword.Player">
+            <summary>
+            Gets player.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Sword.B">
+            <summary>
+            Gets the brush.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Sword.Locked">
+            <summary>
+            Gets or sets a value indicating whether gets or sets the locked boolean.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Sword.Throwed">
+            <summary>
+            Gets or sets a value indicating whether gets or sets the throwed.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Sword.OnFloor">
+            <summary>
+            Gets a value indicating whether gets or sets.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Sword.Dx">
+            <summary>
+            Gets or sets Dx.
+            </summary>
+        </member>
+        <member name="P:NIKHOGG.Elements.Sword.Dy">
+            <summary>
+            Gets or sets Dy.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.Sword.ChangeX(System.Double)">
+            <summary>
+            Change the x coordination of thw Sword.
+            </summary>
+            <param name="diff">diff.</param>
+        </member>
+        <member name="M:NIKHOGG.Elements.Sword.SetX(System.Double)">
+            <summary>
+            Set the x.
+            </summary>
+            <param name="x">X.</param>
+        </member>
+        <member name="M:NIKHOGG.Elements.Sword.SetY(System.Double)">
+            <summary>
+            Set the y position.
+            </summary>
+            <param name="y">Y.</param>
+        </member>
+        <member name="M:NIKHOGG.Elements.Sword.RecalculateX(System.Double,NIKHOGG.Elements.Direction)">
+            <summary>
+            Recalculate the x position.
+            </summary>
+            <param name="x">X.</param>
+            <param name="direction">Direction.</param>
+        </member>
+        <member name="M:NIKHOGG.Elements.Sword.RecalculateX">
+            <summary>
+            Recalculate x position.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.Sword.RecalculateY">
+            <summary>
+            Recalculate y position.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.Sword.RecalculateY(System.Double)">
+            <summary>
+            Recalculate y position.
+            </summary>
+            <param name="y">Y.</param>
+        </member>
+        <member name="M:NIKHOGG.Elements.Sword.Down(System.Boolean)">
+            <summary>
+            Down method.
+            </summary>
+            <param name="locked">Boolean.</param>
+        </member>
+        <member name="M:NIKHOGG.Elements.Sword.Up">
+            <summary>
+            Up method.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.Sword.SetPos(System.Int32)">
+            <summary>
+            Set position.
+            </summary>
+            <param name="pos">Position.</param>
+        </member>
+        <member name="M:NIKHOGG.Elements.Sword.Unlock">
+            <summary>
+            Unlock.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.Sword.ToString">
+            <summary>
+            To string method.
+            </summary>
+            <returns>String.</returns>
+        </member>
+        <member name="M:NIKHOGG.Elements.Sword.DropResize">
+            <summary>
+            Drop resize.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.Sword.FloorResize">
+            <summary>
+            Floor resize.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.Sword.Rotate">
+            <summary>
+            Rotate.
+            </summary>
+            <returns>Rotate transfrom information.</returns>
+        </member>
+        <member name="T:NIKHOGG.Elements.FileType">
+            <summary>
+            FileType enum.
+            </summary>
+        </member>
+        <member name="F:NIKHOGG.Elements.FileType.Level">
+            <summary>
+            Level file.
+            </summary>
+        </member>
+        <member name="F:NIKHOGG.Elements.FileType.Image">
+            <summary>
+            Image file.
+            </summary>
+        </member>
+        <member name="F:NIKHOGG.Elements.FileType.P1">
+            <summary>
+            P1 file.
+            </summary>
+        </member>
+        <member name="F:NIKHOGG.Elements.FileType.P2">
+            <summary>
+            P2 file.
+            </summary>
+        </member>
+        <member name="T:NIKHOGG.Elements.Resource">
+            <summary>
+            Resource class.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Elements.Resource.GetStream(NIKHOGG.Elements.FileType,System.String)">
+            <summary>
+            Get the stream method.
+            </summary>
+            <param name="fileType">The fily type.</param>
+            <param name="fileName">The file name.</param>
+            <returns>Stream.</returns>
+        </member>
+    </members>
+</doc>

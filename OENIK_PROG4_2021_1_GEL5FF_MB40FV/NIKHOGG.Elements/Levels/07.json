@@ -1,0 +1,33 @@
+[
+
+	{
+		"type": "floor",
+		"y": 19.75,
+		"height": 1,
+		"x": 0,
+		"width": 2000
+	},
+	{
+		"type": "floor",
+		"y": 17.3,
+		"height": 5,
+		"x": 560,
+		"width": 45
+	},
+	{
+		"type": "finish",
+		"y": 15.5,
+		"height": 5,
+		"x": 535,
+		"width": 85
+	},
+	{
+		"type": "floor",
+		"y": 0,
+		"height": 20,
+		"x": 800,
+		"width": 60
+	}
+
+
+]

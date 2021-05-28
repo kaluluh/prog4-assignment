@@ -1,0 +1,241 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <AnalysisMode>AllEnabledByDefault</AnalysisMode>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>NIKHOGG.Elements.xml</DocumentationFile>
+    <WarningsAsErrors>;NU1605</WarningsAsErrors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Graphic\arrow_l.png" />
+    <None Remove="Graphic\arrow_low_l.png" />
+    <None Remove="Graphic\arrow_low_r.png" />
+    <None Remove="Graphic\arrow_r.png" />
+    <None Remove="Graphic\audmax.png" />
+    <None Remove="Graphic\audmax_bg.png" />
+    <None Remove="Graphic\audmax_fg.png" />
+    <None Remove="Graphic\aula.png" />
+    <None Remove="Graphic\background.png" />
+    <None Remove="Graphic\elso_emelet_bg.png" />
+    <None Remove="Graphic\elso_emelet_fg.png" />
+    <None Remove="Graphic\finish.png" />
+    <None Remove="Graphic\first_entrance.png" />
+    <None Remove="Graphic\hatso_bejarat_belul_bg.png" />
+    <None Remove="Graphic\ij_f.png" />
+    <None Remove="Graphic\ij_l.png" />
+    <None Remove="Graphic\ij_l_t.png" />
+    <None Remove="Graphic\ij_r.png" />
+    <None Remove="Graphic\ij_r_t.png" />
+    <None Remove="Graphic\ij_stretched_l.png" />
+    <None Remove="Graphic\ij_stretched_r.png" />
+    <None Remove="Graphic\lvlindicator_gradient.png" />
+    <None Remove="Graphic\neptun_to.png" />
+    <None Remove="Graphic\obudaiegyetem.png" />
+    <None Remove="Graphic\P1\p1_bow_1_l.png" />
+    <None Remove="Graphic\P1\p1_bow_1_r.png" />
+    <None Remove="Graphic\P1\p1_bow_2_l.png" />
+    <None Remove="Graphic\P1\p1_bow_2_r.png" />
+    <None Remove="Graphic\P1\p1_bow_s_1_l.png" />
+    <None Remove="Graphic\P1\p1_bow_s_1_r.png" />
+    <None Remove="Graphic\P1\p1_head_l.png" />
+    <None Remove="Graphic\P1\p1_head_r.png" />
+    <None Remove="Graphic\P1\p1_leg_l_0.png" />
+    <None Remove="Graphic\P1\p1_leg_l_1.png" />
+    <None Remove="Graphic\P1\p1_leg_l_2.png" />
+    <None Remove="Graphic\P1\p1_leg_r_0.png" />
+    <None Remove="Graphic\P1\p1_leg_r_1.png" />
+    <None Remove="Graphic\P1\p1_leg_r_2.png" />
+    <None Remove="Graphic\P1\p1_squat_l.png" />
+    <None Remove="Graphic\P1\p1_squat_r.png" />
+    <None Remove="Graphic\P1\p1_sword_1_l.png" />
+    <None Remove="Graphic\P1\p1_sword_1_r.png" />
+    <None Remove="Graphic\P1\p1_sword_2_l.png" />
+    <None Remove="Graphic\P1\p1_sword_2_r.png" />
+    <None Remove="Graphic\P1\p1_sword_3_l.png" />
+    <None Remove="Graphic\P1\p1_sword_3_r.png" />
+    <None Remove="Graphic\P1\p1_sword_attack_1_l.png" />
+    <None Remove="Graphic\P1\p1_sword_attack_1_r.png" />
+    <None Remove="Graphic\P1\p1_sword_attack_2_l.png" />
+    <None Remove="Graphic\P1\p1_sword_attack_2_r.png" />
+    <None Remove="Graphic\P1\p1_sword_attack_3_l.png" />
+    <None Remove="Graphic\P1\p1_sword_attack_3_r.png" />
+    <None Remove="Graphic\P1\p1_sword_attack_l.png" />
+    <None Remove="Graphic\P1\p1_sword_attack_r.png" />
+    <None Remove="Graphic\P1\p1_sword_squat_l.png" />
+    <None Remove="Graphic\P1\p1_sword_squat_r.png" />
+    <None Remove="Graphic\P1\p1_up_l.png" />
+    <None Remove="Graphic\P1\p1_up_r.png" />
+    <None Remove="Graphic\P2\p2_bow_1_l.png" />
+    <None Remove="Graphic\P2\p2_bow_1_r.png" />
+    <None Remove="Graphic\P2\p2_bow_2_l.png" />
+    <None Remove="Graphic\P2\p2_bow_2_r.png" />
+    <None Remove="Graphic\P2\p2_bow_s_1_l.png" />
+    <None Remove="Graphic\P2\p2_bow_s_1_r.png" />
+    <None Remove="Graphic\P2\p2_head_l.png" />
+    <None Remove="Graphic\P2\p2_head_r.png" />
+    <None Remove="Graphic\P2\p2_leg_l_0.png" />
+    <None Remove="Graphic\P2\p2_leg_l_1.png" />
+    <None Remove="Graphic\P2\p2_leg_l_2.png" />
+    <None Remove="Graphic\P2\p2_leg_r_0.png" />
+    <None Remove="Graphic\P2\p2_leg_r_1.png" />
+    <None Remove="Graphic\P2\p2_leg_r_2.png" />
+    <None Remove="Graphic\P2\p2_squat_l.png" />
+    <None Remove="Graphic\P2\p2_squat_r.png" />
+    <None Remove="Graphic\P2\p2_sword_1_l.png" />
+    <None Remove="Graphic\P2\p2_sword_1_r.png" />
+    <None Remove="Graphic\P2\p2_sword_2_l.png" />
+    <None Remove="Graphic\P2\p2_sword_2_r.png" />
+    <None Remove="Graphic\P2\p2_sword_3_l.png" />
+    <None Remove="Graphic\P2\p2_sword_3_r.png" />
+    <None Remove="Graphic\P2\p2_sword_attack_1_l.png" />
+    <None Remove="Graphic\P2\p2_sword_attack_1_r.png" />
+    <None Remove="Graphic\P2\p2_sword_attack_2_l.png" />
+    <None Remove="Graphic\P2\p2_sword_attack_2_r.png" />
+    <None Remove="Graphic\P2\p2_sword_attack_3_l.png" />
+    <None Remove="Graphic\P2\p2_sword_attack_3_r.png" />
+    <None Remove="Graphic\P2\p2_sword_squat_l.png" />
+    <None Remove="Graphic\P2\p2_sword_squat_r.png" />
+    <None Remove="Graphic\P2\p2_up_l.png" />
+    <None Remove="Graphic\P2\p2_up_r.png" />
+    <None Remove="Graphic\pause_menu_bckgrnd.png" />
+    <None Remove="Graphic\player_a.png" />
+    <None Remove="Graphic\small_smoking.png" />
+    <None Remove="Graphic\smoking.png" />
+    <None Remove="Graphic\smoking_frgrnd.png" />
+    <None Remove="Levels\01.json" />
+    <None Remove="Levels\02.json" />
+    <None Remove="Levels\03.json" />
+    <None Remove="Levels\04.json" />
+    <None Remove="Levels\04.lvl" />
+    <None Remove="Levels\05.json" />
+    <None Remove="Levels\06.json" />
+    <None Remove="Levels\07.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Graphic\arrow_l.png" />
+    <EmbeddedResource Include="Graphic\arrow_low_l.png" />
+    <EmbeddedResource Include="Graphic\arrow_low_r.png" />
+    <EmbeddedResource Include="Graphic\arrow_r.png" />
+    <EmbeddedResource Include="Graphic\audmax_bg.png" />
+    <EmbeddedResource Include="Graphic\audmax_fg.png" />
+    <EmbeddedResource Include="Graphic\aula.png" />
+    <EmbeddedResource Include="Graphic\background.png" />
+    <EmbeddedResource Include="Graphic\elso_emelet_bg.png" />
+    <EmbeddedResource Include="Graphic\elso_emelet_fg.png" />
+    <EmbeddedResource Include="Graphic\finish.png" />
+    <EmbeddedResource Include="Graphic\first_entrance.png" />
+    <EmbeddedResource Include="Graphic\hatso_bejarat_belul_bg.png" />
+    <EmbeddedResource Include="Graphic\ij_f.png" />
+    <EmbeddedResource Include="Graphic\ij_l.png" />
+    <EmbeddedResource Include="Graphic\ij_l_t.png" />
+    <EmbeddedResource Include="Graphic\ij_r.png" />
+    <EmbeddedResource Include="Graphic\ij_r_t.png" />
+    <EmbeddedResource Include="Graphic\ij_stretched_l.png" />
+    <EmbeddedResource Include="Graphic\ij_stretched_r.png" />
+    <EmbeddedResource Include="Graphic\lvlindicator_gradient.png" />
+    <EmbeddedResource Include="Graphic\P1\p1_bow_1_l.png" />
+    <EmbeddedResource Include="Graphic\P1\p1_bow_1_r.png" />
+    <EmbeddedResource Include="Graphic\P1\p1_bow_2_l.png" />
+    <EmbeddedResource Include="Graphic\P1\p1_bow_2_r.png" />
+    <EmbeddedResource Include="Graphic\P1\p1_bow_s_1_l.png" />
+    <EmbeddedResource Include="Graphic\P1\p1_bow_s_1_r.png" />
+    <EmbeddedResource Include="Graphic\P1\p1_head_l.png" />
+    <EmbeddedResource Include="Graphic\P1\p1_head_r.png" />
+    <EmbeddedResource Include="Graphic\P1\p1_leg_l_0.png" />
+    <EmbeddedResource Include="Graphic\P1\p1_leg_l_1.png" />
+    <EmbeddedResource Include="Graphic\P1\p1_leg_l_2.png" />
+    <EmbeddedResource Include="Graphic\P1\p1_leg_r_0.png" />
+    <EmbeddedResource Include="Graphic\P1\p1_leg_r_1.png" />
+    <EmbeddedResource Include="Graphic\P1\p1_leg_r_2.png" />
+    <EmbeddedResource Include="Graphic\P1\p1_squat_l.png" />
+    <EmbeddedResource Include="Graphic\P1\p1_squat_r.png" />
+    <EmbeddedResource Include="Graphic\P1\p1_sword_1_l.png" />
+    <EmbeddedResource Include="Graphic\P1\p1_sword_1_r.png" />
+    <EmbeddedResource Include="Graphic\P1\p1_sword_2_l.png" />
+    <EmbeddedResource Include="Graphic\P1\p1_sword_2_r.png" />
+    <EmbeddedResource Include="Graphic\P1\p1_sword_3_l.png" />
+    <EmbeddedResource Include="Graphic\P1\p1_sword_3_r.png" />
+    <EmbeddedResource Include="Graphic\P1\p1_sword_attack_1_l.png" />
+    <EmbeddedResource Include="Graphic\P1\p1_sword_attack_1_r.png" />
+    <EmbeddedResource Include="Graphic\P1\p1_sword_attack_2_l.png" />
+    <EmbeddedResource Include="Graphic\P1\p1_sword_attack_2_r.png" />
+    <EmbeddedResource Include="Graphic\P1\p1_sword_attack_3_l.png" />
+    <EmbeddedResource Include="Graphic\P1\p1_sword_attack_3_r.png" />
+    <EmbeddedResource Include="Graphic\P1\p1_sword_squat_l.png" />
+    <EmbeddedResource Include="Graphic\P1\p1_sword_squat_r.png" />
+    <EmbeddedResource Include="Graphic\P1\p1_up_l.png" />
+    <EmbeddedResource Include="Graphic\P1\p1_up_r.png" />
+    <EmbeddedResource Include="Graphic\P2\p2_bow_1_l.png" />
+    <EmbeddedResource Include="Graphic\P2\p2_bow_1_r.png" />
+    <EmbeddedResource Include="Graphic\P2\p2_bow_2_l.png" />
+    <EmbeddedResource Include="Graphic\P2\p2_bow_2_r.png" />
+    <EmbeddedResource Include="Graphic\P2\p2_bow_s_1_l.png" />
+    <EmbeddedResource Include="Graphic\P2\p2_bow_s_1_r.png" />
+    <EmbeddedResource Include="Graphic\P2\p2_head_l.png" />
+    <EmbeddedResource Include="Graphic\P2\p2_head_r.png" />
+    <EmbeddedResource Include="Graphic\P2\p2_leg_l_0.png" />
+    <EmbeddedResource Include="Graphic\P2\p2_leg_l_1.png" />
+    <EmbeddedResource Include="Graphic\P2\p2_leg_l_2.png" />
+    <EmbeddedResource Include="Graphic\P2\p2_leg_r_0.png" />
+    <EmbeddedResource Include="Graphic\P2\p2_leg_r_1.png" />
+    <EmbeddedResource Include="Graphic\P2\p2_leg_r_2.png" />
+    <EmbeddedResource Include="Graphic\P2\p2_squat_l.png" />
+    <EmbeddedResource Include="Graphic\P2\p2_squat_r.png" />
+    <EmbeddedResource Include="Graphic\P2\p2_sword_1_l.png" />
+    <EmbeddedResource Include="Graphic\P2\p2_sword_1_r.png" />
+    <EmbeddedResource Include="Graphic\P2\p2_sword_2_l.png" />
+    <EmbeddedResource Include="Graphic\P2\p2_sword_2_r.png" />
+    <EmbeddedResource Include="Graphic\P2\p2_sword_3_l.png" />
+    <EmbeddedResource Include="Graphic\P2\p2_sword_3_r.png" />
+    <EmbeddedResource Include="Graphic\P2\p2_sword_attack_1_l.png" />
+    <EmbeddedResource Include="Graphic\P2\p2_sword_attack_1_r.png" />
+    <EmbeddedResource Include="Graphic\P2\p2_sword_attack_2_l.png" />
+    <EmbeddedResource Include="Graphic\P2\p2_sword_attack_2_r.png" />
+    <EmbeddedResource Include="Graphic\P2\p2_sword_attack_3_l.png" />
+    <EmbeddedResource Include="Graphic\P2\p2_sword_attack_3_r.png" />
+    <EmbeddedResource Include="Graphic\P2\p2_sword_squat_l.png" />
+    <EmbeddedResource Include="Graphic\P2\p2_sword_squat_r.png" />
+    <EmbeddedResource Include="Graphic\P2\p2_up_l.png" />
+    <EmbeddedResource Include="Graphic\P2\p2_up_r.png" />
+    <EmbeddedResource Include="Graphic\pause_menu_bckgrnd.png" />
+    <EmbeddedResource Include="Graphic\small_smoking.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Graphic\neptun_kard_r_t.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Graphic\smoking.png" />
+    <EmbeddedResource Include="Graphic\neptun_kard_l_t.png" />
+    <EmbeddedResource Include="Graphic\neptun_kard_r.png" />
+    <EmbeddedResource Include="Graphic\neptun_kard_l.png" />
+    <EmbeddedResource Include="Graphic\neptun_to.png" />
+    <EmbeddedResource Include="Graphic\obudaiegyetem.png" />
+    <EmbeddedResource Include="Graphic\player_a.png" />
+    <EmbeddedResource Include="Graphic\smoking_frgrnd.png" />
+    <EmbeddedResource Include="Levels\01.json" />
+    <EmbeddedResource Include="Levels\02.json" />
+    <EmbeddedResource Include="Levels\03.json" />
+    <EmbeddedResource Include="Levels\04.json" />
+    <EmbeddedResource Include="Levels\05.json" />
+    <EmbeddedResource Include="Levels\06.json" />
+    <EmbeddedResource Include="Levels\07.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>

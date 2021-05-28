@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="NIKHOGG.Logic.NIKHOGGLogic">
+    <Position X="6.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAIACAoQSDQAEAMUAMBDIAZgAIAhhBAAAQAEICBE=</HashCode>
+      <FileName>NIKHOGGLogic.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NIKHOGG.Logic.MenuLogic">
+    <Position X="8" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MenuLogic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="NIKHOGG.Logic.IDetectLogic">
+    <Position X="2.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAEAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IDetectLogic.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NIKHOGG.Logic.ILogic">
+    <Position X="0.75" Y="6" Width="1.5" />
+    <InheritanceLine Type="NIKHOGG.Logic.IProcessLogic" FixedToPoint="true">
+      <Path>
+        <Point X="1.5" Y="4.67" />
+        <Point X="1.5" Y="6" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ILogic.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NIKHOGG.Logic.IPlayerLogic">
+    <Position X="4.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAoAABQAEAAEAIABAAJAAIABgAAAAQAAAAAA=</HashCode>
+      <FileName>Interfaces\IPlayerLogic.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NIKHOGG.Logic.IProcessLogic">
+    <Position X="0.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAIAAAAAQAAAAAMQAAACIAQAAAAABAAAAAAAIABE=</HashCode>
+      <FileName>Interfaces\IProcessLogic.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

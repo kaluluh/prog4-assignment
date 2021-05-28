@@ -1,0 +1,360 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NIKHOGG.Logic</name>
+    </assembly>
+    <members>
+        <member name="T:NIKHOGG.Logic.IDetectLogic">
+            <summary>
+            IDetectLogic interface.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Logic.IDetectLogic.DetectKill">
+            <summary>
+            Detect kill.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Logic.IDetectLogic.DetectWeaponCollision">
+            <summary>
+            Detect weapons' collision.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Logic.IDetectLogic.IsDead(NIKHOGG.Elements.Player)">
+            <summary>
+            Check if player is dead.
+            </summary>
+            <param name="player">Player.</param>
+            <returns>Is he dead or not.</returns>
+        </member>
+        <member name="T:NIKHOGG.Logic.ILogic">
+            <summary>
+            ILogic interface.
+            </summary>
+        </member>
+        <member name="T:NIKHOGG.Logic.IPlayerLogic">
+            <summary>
+            IPlayerLogic interface.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Logic.IPlayerLogic.ChangeAx(NIKHOGG.Elements.Player,NIKHOGG.Elements.Direction,System.Boolean)">
+            <summary>
+            Change acceleration of player.
+            </summary>
+            <param name="player">Player.</param>
+            <param name="d">Direction.</param>
+            <param name="moving">Accelerates or slows down.</param>
+        </member>
+        <member name="M:NIKHOGG.Logic.IPlayerLogic.Move(NIKHOGG.Elements.Player)">
+            <summary>
+            Move player.
+            </summary>
+            <param name="player">Player.</param>
+        </member>
+        <member name="M:NIKHOGG.Logic.IPlayerLogic.MoveP1OnX">
+            <summary>
+            Move player one on X.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Logic.IPlayerLogic.MoveP2OnX">
+            <summary>
+            Move player two on X.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Logic.IPlayerLogic.CheckFloorUnder(NIKHOGG.Elements.Player)">
+            <summary>
+            Check there is floow under player.
+            </summary>
+            <param name="player">Player.</param>
+        </member>
+        <member name="M:NIKHOGG.Logic.IPlayerLogic.MoveOnY(NIKHOGG.Elements.Player)">
+            <summary>
+            Move player on Y.
+            </summary>
+            <param name="player">Player.</param>
+        </member>
+        <member name="M:NIKHOGG.Logic.IPlayerLogic.MoveP1ToRespawnPos">
+            <summary>
+            Move player one on.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Logic.IPlayerLogic.MoveP2ToRespawnPos">
+            <summary>
+            Move player two on.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Logic.IPlayerLogic.Spawn(NIKHOGG.Elements.Player)">
+            <summary>
+            Spawn player.
+            </summary>
+            <param name="player">Player.</param>
+        </member>
+        <member name="M:NIKHOGG.Logic.IPlayerLogic.WeaponUp(NIKHOGG.Elements.Player)">
+            <summary>
+            Lift weapon for player.
+            </summary>
+            <param name="player">Player.</param>
+        </member>
+        <member name="M:NIKHOGG.Logic.IPlayerLogic.WeaponDown(NIKHOGG.Elements.Player)">
+            <summary>
+            Lower weapon for player.
+            </summary>
+            <param name="player">Player.</param>
+        </member>
+        <member name="M:NIKHOGG.Logic.IPlayerLogic.UnlockWeapon(NIKHOGG.Elements.Player)">
+            <summary>
+            Unlock weapon for player.
+            </summary>
+            <param name="player">Player.</param>
+        </member>
+        <member name="M:NIKHOGG.Logic.IPlayerLogic.Attack(NIKHOGG.Elements.Player)">
+            <summary>
+            Player start attacking.
+            </summary>
+            <param name="player">Player.</param>
+        </member>
+        <member name="M:NIKHOGG.Logic.IPlayerLogic.ThrowWeapon(NIKHOGG.Elements.Player)">
+            <summary>
+            Throw weapon for player.
+            </summary>
+            <param name="player">Player.</param>
+        </member>
+        <member name="M:NIKHOGG.Logic.IPlayerLogic.Shoot(NIKHOGG.Elements.Player)">
+            <summary>
+            Shoot with player's weapon.
+            </summary>
+            <param name="player">Player.</param>
+        </member>
+        <member name="M:NIKHOGG.Logic.IPlayerLogic.Jump(NIKHOGG.Elements.Player)">
+            <summary>
+            Jump.
+            </summary>
+            <param name="player">Player.</param>
+        </member>
+        <member name="M:NIKHOGG.Logic.IPlayerLogic.BowStrech(NIKHOGG.Elements.Player)">
+            <summary>
+            Streches bow.
+            </summary>
+            <param name="player">Player.</param>
+        </member>
+        <member name="T:NIKHOGG.Logic.IProcessLogic">
+            <summary>
+            ProcessLogic interface.
+            </summary>
+        </member>
+        <member name="E:NIKHOGG.Logic.IProcessLogic.RefreshScreen">
+            <summary>
+            Event of screen refreshing.
+            </summary>
+        </member>
+        <member name="E:NIKHOGG.Logic.IProcessLogic.Finished">
+            <summary>
+            Event of finishing the game.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Logic.IProcessLogic.InitModel(System.Int32,System.Int32)">
+            <summary>
+            Initialize model.
+            </summary>
+            <param name="lvl">Current level.</param>
+            <param name="actualPlayer">Player on focus.</param>
+        </member>
+        <member name="M:NIKHOGG.Logic.IProcessLogic.GenerateNextFrame">
+            <summary>
+            Generate next frame for render.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Logic.IProcessLogic.MoveWeapons">
+            <summary>
+            Moves weapons.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Logic.IProcessLogic.RecalculateCamera">
+            <summary>
+            Recalculate camera position.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Logic.IProcessLogic.CreateDeathTask(NIKHOGG.Elements.Player)">
+            <summary>
+            Create a "death" task for player.
+            </summary>
+            <param name="player">Player.</param>
+        </member>
+        <member name="M:NIKHOGG.Logic.IProcessLogic.ChangeFocus(System.Int32)">
+            <summary>
+            Change focus to player.
+            </summary>
+            <param name="player">Player.</param>
+        </member>
+        <member name="M:NIKHOGG.Logic.IProcessLogic.SpawnPointY(NIKHOGG.Elements.Player)">
+            <summary>
+            Get spawnpoint for player.
+            </summary>
+            <param name="player">Player.</param>
+            <returns>Spawnpoint (Y).</returns>
+        </member>
+        <member name="M:NIKHOGG.Logic.IProcessLogic.LoadGame(System.Int32)">
+            <summary>
+            Load game from save.
+            </summary>
+            <param name="id">ID of save.</param>
+            <returns>Is loading succesfull.</returns>
+        </member>
+        <member name="M:NIKHOGG.Logic.IProcessLogic.SaveGame(System.Int32,System.Int32)">
+            <summary>
+            Save game.
+            </summary>
+            <param name="id">ID of save.</param>
+            <param name="timeinmilisec">Current stopwatch time.</param>
+        </member>
+        <member name="M:NIKHOGG.Logic.IProcessLogic.DropWeapon(NIKHOGG.Elements.IWeapon,NIKHOGG.Elements.Direction,System.Double)">
+            <summary>
+            Drop weapon to floor.
+            </summary>
+            <param name="weapon">Weapon.</param>
+            <param name="direction">Direction.</param>
+            <param name="y">Y coordinate.</param>
+        </member>
+        <member name="M:NIKHOGG.Logic.IProcessLogic.IsReachedEndofMap(NIKHOGG.Elements.Player)">
+            <summary>
+            Checks if player reached end of window.
+            </summary>
+            <param name="player">Player.</param>
+            <returns>Is he reached end of window.</returns>
+        </member>
+        <member name="M:NIKHOGG.Logic.IProcessLogic.SaveToToplist(NIKHOGG.Elements.TopListItem)">
+            <summary>
+            Save result to toplist.
+            </summary>
+            <param name="tli">Toplist item.</param>
+        </member>
+        <member name="T:NIKHOGG.Logic.MenuLogic">
+            <summary>
+            MenuLogic implementation.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Logic.MenuLogic.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:NIKHOGG.Logic.MenuLogic"/> class.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Logic.MenuLogic.GetTopList">
+            <summary>
+            Read toplist from file.
+            </summary>
+            <returns>Toplist.</returns>
+        </member>
+        <member name="T:NIKHOGG.Logic.NIKHOGGLogic">
+            <summary>
+            Implementation of logic.
+            </summary>
+        </member>
+        <member name="M:NIKHOGG.Logic.NIKHOGGLogic.#ctor(NIKHOGG.Model.IModel)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NIKHOGG.Logic.NIKHOGGLogic"/> class.
+            </summary>
+            <param name="model">Model.</param>
+        </member>
+        <member name="E:NIKHOGG.Logic.NIKHOGGLogic.RefreshScreen">
+            <inheritdoc/>
+        </member>
+        <member name="E:NIKHOGG.Logic.NIKHOGGLogic.Finished">
+            <inheritdoc/>
+        </member>
+        <member name="M:NIKHOGG.Logic.NIKHOGGLogic.InitModel(System.Int32,System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:NIKHOGG.Logic.NIKHOGGLogic.LoadGame(System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:NIKHOGG.Logic.NIKHOGGLogic.SaveGame(System.Int32,System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:NIKHOGG.Logic.NIKHOGGLogic.ChangeAx(NIKHOGG.Elements.Player,NIKHOGG.Elements.Direction,System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="M:NIKHOGG.Logic.NIKHOGGLogic.Move(NIKHOGG.Elements.Player)">
+            <inheritdoc/>
+        </member>
+        <member name="M:NIKHOGG.Logic.NIKHOGGLogic.MoveP1OnX">
+            <inheritdoc/>
+        </member>
+        <member name="M:NIKHOGG.Logic.NIKHOGGLogic.MoveP2OnX">
+            <inheritdoc/>
+        </member>
+        <member name="M:NIKHOGG.Logic.NIKHOGGLogic.CheckFloorUnder(NIKHOGG.Elements.Player)">
+            <inheritdoc/>
+        </member>
+        <member name="M:NIKHOGG.Logic.NIKHOGGLogic.MoveOnY(NIKHOGG.Elements.Player)">
+            <inheritdoc/>
+        </member>
+        <member name="M:NIKHOGG.Logic.NIKHOGGLogic.MoveP1ToRespawnPos">
+            <inheritdoc/>
+        </member>
+        <member name="M:NIKHOGG.Logic.NIKHOGGLogic.MoveP2ToRespawnPos">
+            <inheritdoc/>
+        </member>
+        <member name="M:NIKHOGG.Logic.NIKHOGGLogic.Spawn(NIKHOGG.Elements.Player)">
+            <inheritdoc/>
+        </member>
+        <member name="M:NIKHOGG.Logic.NIKHOGGLogic.SpawnPointY(NIKHOGG.Elements.Player)">
+            <inheritdoc/>
+        </member>
+        <member name="M:NIKHOGG.Logic.NIKHOGGLogic.WeaponUp(NIKHOGG.Elements.Player)">
+            <inheritdoc/>
+        </member>
+        <member name="M:NIKHOGG.Logic.NIKHOGGLogic.WeaponDown(NIKHOGG.Elements.Player)">
+            <inheritdoc/>
+        </member>
+        <member name="M:NIKHOGG.Logic.NIKHOGGLogic.UnlockWeapon(NIKHOGG.Elements.Player)">
+            <inheritdoc/>
+        </member>
+        <member name="M:NIKHOGG.Logic.NIKHOGGLogic.Attack(NIKHOGG.Elements.Player)">
+            <inheritdoc/>
+        </member>
+        <member name="M:NIKHOGG.Logic.NIKHOGGLogic.BowStrech(NIKHOGG.Elements.Player)">
+            <inheritdoc/>
+        </member>
+        <member name="M:NIKHOGG.Logic.NIKHOGGLogic.ThrowWeapon(NIKHOGG.Elements.Player)">
+            <inheritdoc/>
+        </member>
+        <member name="M:NIKHOGG.Logic.NIKHOGGLogic.DropWeapon(NIKHOGG.Elements.IWeapon,NIKHOGG.Elements.Direction,System.Double)">
+            <inheritdoc/>
+        </member>
+        <member name="M:NIKHOGG.Logic.NIKHOGGLogic.Shoot(NIKHOGG.Elements.Player)">
+            <inheritdoc/>
+        </member>
+        <member name="M:NIKHOGG.Logic.NIKHOGGLogic.Jump(NIKHOGG.Elements.Player)">
+            <inheritdoc/>
+        </member>
+        <member name="M:NIKHOGG.Logic.NIKHOGGLogic.GenerateNextFrame">
+            <inheritdoc/>
+        </member>
+        <member name="M:NIKHOGG.Logic.NIKHOGGLogic.MoveWeapons">
+            <inheritdoc/>
+        </member>
+        <member name="M:NIKHOGG.Logic.NIKHOGGLogic.RecalculateCamera">
+            <inheritdoc/>
+        </member>
+        <member name="M:NIKHOGG.Logic.NIKHOGGLogic.IsDead(NIKHOGG.Elements.Player)">
+            <inheritdoc/>
+        </member>
+        <member name="M:NIKHOGG.Logic.NIKHOGGLogic.IsReachedEndofMap(NIKHOGG.Elements.Player)">
+            <inheritdoc/>
+        </member>
+        <member name="M:NIKHOGG.Logic.NIKHOGGLogic.CreateDeathTask(NIKHOGG.Elements.Player)">
+            <inheritdoc/>
+        </member>
+        <member name="M:NIKHOGG.Logic.NIKHOGGLogic.ChangeFocus(System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:NIKHOGG.Logic.NIKHOGGLogic.DetectKill">
+            <inheritdoc/>
+        </member>
+        <member name="M:NIKHOGG.Logic.NIKHOGGLogic.DetectWeaponCollision">
+            <inheritdoc/>
+        </member>
+        <member name="M:NIKHOGG.Logic.NIKHOGGLogic.SaveToToplist(NIKHOGG.Elements.TopListItem)">
+            <inheritdoc/>
+        </member>
+    </members>
+</doc>

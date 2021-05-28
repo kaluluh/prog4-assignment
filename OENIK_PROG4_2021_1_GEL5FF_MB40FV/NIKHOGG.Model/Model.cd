@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="NIKHOGG.Model.NIKHOGGModel">
+    <Position X="2.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAECRAiCABAAEAAIgAAAIAEAAAAAAgAAAAAoAo=</HashCode>
+      <FileName>NIKHOGGModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="NIKHOGG.Model.IModel">
+    <Position X="0.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAECRAiCABAAEAAIgAAAIAEAAAAAAgAAAAAoAo=</HashCode>
+      <FileName>IModel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="NIKHOGG.Model.ModelStatus">
+    <Position X="4.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAoAAAAAAIAAAAAAAEAAIAQAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>NIKHOGGModel.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

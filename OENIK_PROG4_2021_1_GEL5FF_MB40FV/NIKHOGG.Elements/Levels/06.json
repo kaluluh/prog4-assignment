@@ -1,0 +1,18 @@
+[
+
+	{
+		"type": "floor",
+		"y": 19,
+		"height": 1,
+		"x": 0,
+		"width": 2000
+	},
+	{
+		"type": "ceiling",
+		"y": 0,
+		"height": 5,
+		"x": 0,
+		"width": 2000
+	}
+
+]
